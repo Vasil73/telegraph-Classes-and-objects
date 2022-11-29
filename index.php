@@ -40,8 +40,8 @@ class TelegraphText {
     }
 }
 
-$class = new TelegraphText('Vasiliy', 'test_text_file');
+$class = new TelegraphText ('Vasiliy', 'test_text_file');
 $class -> storeText();
 $class->loadText();
-$class -> editText( 'Научиться работать с классами и объектами на практике.', 'Практическая работа' );
+$class -> editText ('Научиться работать с классами и объектами на практике.', 'Практическая работа');
 echo $class -> text . PHP_EOL;
